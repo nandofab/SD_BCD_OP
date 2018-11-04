@@ -1,0 +1,4 @@
+vhdl work "Adder1Bit.vhd"
+vhdl work "Adder4Bits.vhd"
+vhdl work "Adder8Bits.vhd"
+vhdl work "Multiplica4Bits.vhd"

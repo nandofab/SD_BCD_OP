@@ -21,3 +21,5 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Adder2Digi
 map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Adder2DigitsBCD_map.ncd Adder2DigitsBCD.ngd Adder2DigitsBCD.pcf 
 par -w -intstyle ise -ol high -mt off Adder2DigitsBCD_map.ncd Adder2DigitsBCD.ncd Adder2DigitsBCD.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Adder2DigitsBCD.twx Adder2DigitsBCD.ncd -o Adder2DigitsBCD.twr Adder2DigitsBCD.pcf 
+xst -intstyle ise -ifn "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.xst" -ofn "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.syr" 
+xst -intstyle ise -ifn "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.xst" -ofn "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.syr" 
