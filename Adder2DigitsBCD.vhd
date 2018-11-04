@@ -39,7 +39,7 @@ entity Adder2DigitsBCD is
 
 end Adder2DigitsBCD;
 
-/architecture Behavioral of Adder2DigitsBCD is
+architecture Behavioral of Adder2DigitsBCD is
 	
 	signal SomaOuNao_6: std_logic; -- Flag de somar 6 ou nao
 	signal c: std_logic; -- Cout temporario
