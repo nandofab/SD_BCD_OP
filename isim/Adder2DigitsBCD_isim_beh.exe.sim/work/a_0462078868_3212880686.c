@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/lukas/ISE_PROJETOS/SomaEMultBCD/Adder2DigitsBCD.vhd";
+static const char *ng0 = "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_3488546069778340532_503743352(char *, unsigned char , unsigned char );
@@ -115,29 +115,21 @@ static void work_a_0462078868_3212880686_p_1(char *t0)
 {
     char *t1;
     char *t2;
-    unsigned char t3;
+    char *t3;
     char *t4;
     char *t5;
-    char *t6;
-    char *t7;
-    char *t8;
 
 LAB0:    xsi_set_current_line(64, ng0);
 
-LAB3:    t1 = (t0 + 1832U);
-    t2 = *((char **)t1);
-    t3 = *((unsigned char *)t2);
-    t1 = (t0 + 5376);
-    t4 = (t1 + 56U);
+LAB3:    t1 = (t0 + 5376);
+    t2 = (t1 + 56U);
+    t3 = *((char **)t2);
+    t4 = (t3 + 56U);
     t5 = *((char **)t4);
-    t6 = (t5 + 56U);
-    t7 = *((char **)t6);
-    *((unsigned char *)t7) = t3;
-    xsi_driver_first_trans_fast_port(t1);
+    *((unsigned char *)t5) = (unsigned char)2;
+    xsi_driver_first_trans_delta(t1, 3U, 1, 0LL);
 
-LAB2:    t8 = (t0 + 5200);
-    *((int *)t8) = 1;
-
+LAB2:
 LAB1:    return;
 LAB4:    goto LAB2;
 
@@ -147,21 +139,29 @@ static void work_a_0462078868_3212880686_p_2(char *t0)
 {
     char *t1;
     char *t2;
-    char *t3;
+    unsigned char t3;
     char *t4;
     char *t5;
+    char *t6;
+    char *t7;
+    char *t8;
 
-LAB0:    xsi_set_current_line(66, ng0);
+LAB0:    xsi_set_current_line(65, ng0);
 
-LAB3:    t1 = (t0 + 5440);
-    t2 = (t1 + 56U);
-    t3 = *((char **)t2);
-    t4 = (t3 + 56U);
+LAB3:    t1 = (t0 + 1832U);
+    t2 = *((char **)t1);
+    t3 = *((unsigned char *)t2);
+    t1 = (t0 + 5440);
+    t4 = (t1 + 56U);
     t5 = *((char **)t4);
-    *((unsigned char *)t5) = (unsigned char)2;
-    xsi_driver_first_trans_delta(t1, 3U, 1, 0LL);
+    t6 = (t5 + 56U);
+    t7 = *((char **)t6);
+    *((unsigned char *)t7) = t3;
+    xsi_driver_first_trans_delta(t1, 2U, 1, 0LL);
 
-LAB2:
+LAB2:    t8 = (t0 + 5200);
+    *((int *)t8) = 1;
+
 LAB1:    return;
 LAB4:    goto LAB2;
 
@@ -178,7 +178,7 @@ static void work_a_0462078868_3212880686_p_3(char *t0)
     char *t7;
     char *t8;
 
-LAB0:    xsi_set_current_line(67, ng0);
+LAB0:    xsi_set_current_line(66, ng0);
 
 LAB3:    t1 = (t0 + 1832U);
     t2 = *((char **)t1);
@@ -189,7 +189,7 @@ LAB3:    t1 = (t0 + 1832U);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
     *((unsigned char *)t7) = t3;
-    xsi_driver_first_trans_delta(t1, 2U, 1, 0LL);
+    xsi_driver_first_trans_delta(t1, 1U, 1, 0LL);
 
 LAB2:    t8 = (t0 + 5216);
     *((int *)t8) = 1;
@@ -203,29 +203,21 @@ static void work_a_0462078868_3212880686_p_4(char *t0)
 {
     char *t1;
     char *t2;
-    unsigned char t3;
+    char *t3;
     char *t4;
     char *t5;
-    char *t6;
-    char *t7;
-    char *t8;
 
-LAB0:    xsi_set_current_line(68, ng0);
+LAB0:    xsi_set_current_line(67, ng0);
 
-LAB3:    t1 = (t0 + 1832U);
-    t2 = *((char **)t1);
-    t3 = *((unsigned char *)t2);
-    t1 = (t0 + 5568);
-    t4 = (t1 + 56U);
+LAB3:    t1 = (t0 + 5568);
+    t2 = (t1 + 56U);
+    t3 = *((char **)t2);
+    t4 = (t3 + 56U);
     t5 = *((char **)t4);
-    t6 = (t5 + 56U);
-    t7 = *((char **)t6);
-    *((unsigned char *)t7) = t3;
-    xsi_driver_first_trans_delta(t1, 1U, 1, 0LL);
+    *((unsigned char *)t5) = (unsigned char)2;
+    xsi_driver_first_trans_delta(t1, 0U, 1, 0LL);
 
-LAB2:    t8 = (t0 + 5232);
-    *((int *)t8) = 1;
-
+LAB2:
 LAB1:    return;
 LAB4:    goto LAB2;
 
@@ -235,21 +227,29 @@ static void work_a_0462078868_3212880686_p_5(char *t0)
 {
     char *t1;
     char *t2;
-    char *t3;
+    unsigned char t3;
     char *t4;
     char *t5;
+    char *t6;
+    char *t7;
+    char *t8;
 
 LAB0:    xsi_set_current_line(69, ng0);
 
-LAB3:    t1 = (t0 + 5632);
-    t2 = (t1 + 56U);
-    t3 = *((char **)t2);
-    t4 = (t3 + 56U);
+LAB3:    t1 = (t0 + 1832U);
+    t2 = *((char **)t1);
+    t3 = *((unsigned char *)t2);
+    t1 = (t0 + 5632);
+    t4 = (t1 + 56U);
     t5 = *((char **)t4);
-    *((unsigned char *)t5) = (unsigned char)2;
-    xsi_driver_first_trans_delta(t1, 0U, 1, 0LL);
+    t6 = (t5 + 56U);
+    t7 = *((char **)t6);
+    *((unsigned char *)t7) = t3;
+    xsi_driver_first_trans_fast_port(t1);
 
-LAB2:
+LAB2:    t8 = (t0 + 5232);
+    *((int *)t8) = 1;
+
 LAB1:    return;
 LAB4:    goto LAB2;
 

@@ -1,0 +1,139 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/home/lukas/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Multiplica2Digits.twx Multiplica2Digits.ncd -o
+Multiplica2Digits.twr Multiplica2Digits.pcf
+
+Design file:              Multiplica2Digits.ncd
+Physical constraint file: Multiplica2Digits.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |Cout<0>        |   11.353|
+A<0>           |Cout<1>        |   11.393|
+A<0>           |Cout<2>        |   11.400|
+A<0>           |Cout<3>        |   11.364|
+A<0>           |Saida_Mult<0>  |    5.932|
+A<0>           |Saida_Mult<1>  |   11.077|
+A<0>           |Saida_Mult<2>  |   10.558|
+A<0>           |Saida_Mult<3>  |   10.540|
+A<1>           |Cout<0>        |   11.659|
+A<1>           |Cout<1>        |   11.699|
+A<1>           |Cout<2>        |   11.706|
+A<1>           |Cout<3>        |   11.670|
+A<1>           |Saida_Mult<1>  |   11.383|
+A<1>           |Saida_Mult<2>  |   10.864|
+A<1>           |Saida_Mult<3>  |   10.846|
+A<2>           |Cout<0>        |   11.648|
+A<2>           |Cout<1>        |   11.688|
+A<2>           |Cout<2>        |   11.695|
+A<2>           |Cout<3>        |   11.659|
+A<2>           |Saida_Mult<1>  |   11.372|
+A<2>           |Saida_Mult<2>  |   10.853|
+A<2>           |Saida_Mult<3>  |   10.835|
+A<3>           |Cout<0>        |   11.742|
+A<3>           |Cout<1>        |   11.782|
+A<3>           |Cout<2>        |   11.789|
+A<3>           |Cout<3>        |   11.753|
+A<3>           |Saida_Mult<1>  |   11.466|
+A<3>           |Saida_Mult<2>  |   10.947|
+A<3>           |Saida_Mult<3>  |   10.929|
+B<0>           |Cout<0>        |   11.313|
+B<0>           |Cout<1>        |   11.353|
+B<0>           |Cout<2>        |   11.360|
+B<0>           |Cout<3>        |   11.324|
+B<0>           |Saida_Mult<0>  |    5.694|
+B<0>           |Saida_Mult<1>  |   11.037|
+B<0>           |Saida_Mult<2>  |   10.518|
+B<0>           |Saida_Mult<3>  |   10.500|
+B<1>           |Cout<0>        |   11.429|
+B<1>           |Cout<1>        |   11.469|
+B<1>           |Cout<2>        |   11.476|
+B<1>           |Cout<3>        |   11.440|
+B<1>           |Saida_Mult<1>  |   11.153|
+B<1>           |Saida_Mult<2>  |   10.634|
+B<1>           |Saida_Mult<3>  |   10.616|
+B<2>           |Cout<0>        |   10.824|
+B<2>           |Cout<1>        |   10.864|
+B<2>           |Cout<2>        |   10.871|
+B<2>           |Cout<3>        |   10.835|
+B<2>           |Saida_Mult<1>  |   10.548|
+B<2>           |Saida_Mult<2>  |   10.029|
+B<2>           |Saida_Mult<3>  |   10.011|
+B<3>           |Cout<0>        |   10.901|
+B<3>           |Cout<1>        |   10.941|
+B<3>           |Cout<2>        |   10.948|
+B<3>           |Cout<3>        |   10.912|
+B<3>           |Saida_Mult<1>  |   10.625|
+B<3>           |Saida_Mult<2>  |   10.106|
+B<3>           |Saida_Mult<3>  |   10.088|
+Cin<0>         |Cout<0>        |    9.949|
+Cin<0>         |Cout<1>        |    9.989|
+Cin<0>         |Cout<2>        |    9.996|
+Cin<0>         |Cout<3>        |    9.960|
+Cin<0>         |Saida_Mult<0>  |    5.261|
+Cin<0>         |Saida_Mult<1>  |    9.673|
+Cin<0>         |Saida_Mult<2>  |    9.154|
+Cin<0>         |Saida_Mult<3>  |    9.136|
+Cin<1>         |Cout<0>        |    9.850|
+Cin<1>         |Cout<1>        |    9.890|
+Cin<1>         |Cout<2>        |    9.897|
+Cin<1>         |Cout<3>        |    9.861|
+Cin<1>         |Saida_Mult<1>  |    9.574|
+Cin<1>         |Saida_Mult<2>  |    9.055|
+Cin<1>         |Saida_Mult<3>  |    9.037|
+Cin<2>         |Cout<0>        |    9.621|
+Cin<2>         |Cout<1>        |    9.661|
+Cin<2>         |Cout<2>        |    9.668|
+Cin<2>         |Cout<3>        |    9.632|
+Cin<2>         |Saida_Mult<1>  |    9.345|
+Cin<2>         |Saida_Mult<2>  |    8.826|
+Cin<2>         |Saida_Mult<3>  |    8.808|
+Cin<3>         |Cout<0>        |    9.402|
+Cin<3>         |Cout<1>        |    9.442|
+Cin<3>         |Cout<2>        |    9.449|
+Cin<3>         |Cout<3>        |    9.413|
+Cin<3>         |Saida_Mult<1>  |    9.126|
+Cin<3>         |Saida_Mult<2>  |    8.607|
+Cin<3>         |Saida_Mult<3>  |    8.589|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Nov  6 20:26:29 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 763 MB
+
+
+

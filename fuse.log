@@ -1,24 +1,30 @@
-Running: /home/lukas/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/lukas/ISE_PROJETOS/SomaEMultBCD/Adder2DigitsBCD_isim_beh.exe -prj /home/lukas/ISE_PROJETOS/SomaEMultBCD/Adder2DigitsBCD_beh.prj work.Adder2DigitsBCD 
+Running: /home/lukas/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica2Digits_isim_beh.exe -prj /home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica2Digits_beh.prj work.Multiplica2Digits 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "/home/lukas/ISE_PROJETOS/SomaEMultBCD/Adder1Bit.vhd" into library work
-Parsing VHDL file "/home/lukas/ISE_PROJETOS/SomaEMultBCD/Adder4Bits.vhd" into library work
-Parsing VHDL file "/home/lukas/ISE_PROJETOS/SomaEMultBCD/Adder2DigitsBCD.vhd" into library work
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder1Bit.vhd" into library work
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4Bits.vhd" into library work
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder8Bits.vhd" into library work
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4Bits.vhd" into library work
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.vhd" into library work
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica2Digits.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 94860 KB
-Fuse CPU Usage: 1310 ms
+Fuse Memory Usage: 95040 KB
+Fuse CPU Usage: 1200 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling architecture behavioral of entity Adder1Bit [adder1bit_default]
 Compiling architecture behavioral of entity Adder4Bits [adder4bits_default]
-Compiling architecture behavioral of entity adder2digitsbcd
+Compiling architecture adder8bits of entity Adder8Bits [adder8bits_default]
+Compiling architecture multiplicaarch of entity Multiplica4Bits [multiplica4bits_default]
+Compiling architecture behavioral of entity Adder2DigitsBCD [adder2digitsbcd_default]
+Compiling architecture behavioral of entity multiplica2digits
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 7 VHDL Units
-Built simulation executable /home/lukas/ISE_PROJETOS/SomaEMultBCD/Adder2DigitsBCD_isim_beh.exe
-Fuse Memory Usage: 660616 KB
-Fuse CPU Usage: 1330 ms
-GCC CPU Usage: 740 ms
+Compiled 13 VHDL Units
+Built simulation executable /home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica2Digits_isim_beh.exe
+Fuse Memory Usage: 660804 KB
+Fuse CPU Usage: 1240 ms
+GCC CPU Usage: 430 ms
