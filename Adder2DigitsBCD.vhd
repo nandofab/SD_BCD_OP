@@ -34,7 +34,7 @@ entity Adder2DigitsBCD is
   Port ( A : in  STD_LOGIC_VECTOR(3 downto 0);
          B : in  STD_LOGIC_VECTOR(3 downto 0);
          Cin : in  STD_LOGIC;
-         S_BCD : out  STD_LOGIC_VECTOR(3 downto 0);
+         Saida : out  STD_LOGIC_VECTOR(3 downto 0);
          Cout : out  STD_LOGIC);
 
 end Adder2DigitsBCD;
@@ -68,6 +68,6 @@ begin
 	
 	Cout <= SomaOuNao_6;
 	
-	Adder_6: Adder4Bits port map (S,Soma_6,'0',S_BCD); -- Cout solto porque não precisa
+	Adder_6: Adder4Bits port map (S,Soma_6,'0',Saida); -- Cout solto porque não precisa
 	
 end Behavioral;

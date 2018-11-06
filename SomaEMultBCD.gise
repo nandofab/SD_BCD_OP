@@ -145,10 +145,9 @@
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Adder1Bit.vhd"/>
-      <outfile xil_pn:name="Adder2DigitsBCD.vhd"/>
-      <outfile xil_pn:name="Adder4Bits.vhd"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1540742030" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1597475291809056012" xil_pn:start_ts="1540742030">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -170,10 +169,9 @@
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Adder1Bit.vhd"/>
-      <outfile xil_pn:name="Adder2DigitsBCD.vhd"/>
-      <outfile xil_pn:name="Adder4Bits.vhd"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1540742035" xil_pn:in_ck="-1675472165351740475" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1303373007379933039" xil_pn:start_ts="1540742030">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -182,21 +180,19 @@
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Adder2DigitsBCD_beh.prj"/>
-      <outfile xil_pn:name="Adder2DigitsBCD_isim_beh.exe"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1540742035" xil_pn:in_ck="780221057282778190" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8884911268985412372" xil_pn:start_ts="1540742035">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Adder2DigitsBCD_isim_beh.wdb"/>
-      <outfile xil_pn:name="isim.cmd"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1540741247" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1540741247">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -205,10 +201,12 @@
     <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5349736917181302171" xil_pn:start_ts="1541367656">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-4432142691464643219" xil_pn:start_ts="1541367656">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1541367656">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -217,86 +215,75 @@
     <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5396527705568235143" xil_pn:start_ts="1541367656">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1541367656">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5516909183594532343" xil_pn:start_ts="1541367656">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1541367668" xil_pn:in_ck="7246445592436643550" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="7506421805461741130" xil_pn:start_ts="1541367656">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Adder8Bits.ngr"/>
-      <outfile xil_pn:name="Multiplica4Bits.lso"/>
-      <outfile xil_pn:name="Multiplica4Bits.ngc"/>
-      <outfile xil_pn:name="Multiplica4Bits.ngr"/>
-      <outfile xil_pn:name="Multiplica4Bits.prj"/>
-      <outfile xil_pn:name="Multiplica4Bits.stx"/>
-      <outfile xil_pn:name="Multiplica4Bits.syr"/>
-      <outfile xil_pn:name="Multiplica4Bits.xst"/>
-      <outfile xil_pn:name="Multiplica4Bits_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1541367668" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-3543544944883056974" xil_pn:start_ts="1541367668">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1541367675" xil_pn:in_ck="-1659226584941822059" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-3065320283248240418" xil_pn:start_ts="1541367668">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="Multiplica4Bits.bld"/>
-      <outfile xil_pn:name="Multiplica4Bits.ngd"/>
-      <outfile xil_pn:name="Multiplica4Bits_ngdbuild.xrpt"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1541367704" xil_pn:in_ck="4330990280407294194" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1541367675">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="Multiplica4Bits.pcf"/>
-      <outfile xil_pn:name="Multiplica4Bits_map.map"/>
-      <outfile xil_pn:name="Multiplica4Bits_map.mrp"/>
-      <outfile xil_pn:name="Multiplica4Bits_map.ncd"/>
-      <outfile xil_pn:name="Multiplica4Bits_map.ngm"/>
-      <outfile xil_pn:name="Multiplica4Bits_map.xrpt"/>
-      <outfile xil_pn:name="Multiplica4Bits_summary.xml"/>
-      <outfile xil_pn:name="Multiplica4Bits_usage.xml"/>
-      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1541367743" xil_pn:in_ck="5133678860920591492" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1541367704">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="Multiplica4Bits.ncd"/>
-      <outfile xil_pn:name="Multiplica4Bits.pad"/>
-      <outfile xil_pn:name="Multiplica4Bits.par"/>
-      <outfile xil_pn:name="Multiplica4Bits.ptwx"/>
-      <outfile xil_pn:name="Multiplica4Bits.unroutes"/>
-      <outfile xil_pn:name="Multiplica4Bits.xpi"/>
-      <outfile xil_pn:name="Multiplica4Bits_pad.csv"/>
-      <outfile xil_pn:name="Multiplica4Bits_pad.txt"/>
-      <outfile xil_pn:name="Multiplica4Bits_par.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1541367743" xil_pn:in_ck="2375659134464079466" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1541367727">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="Multiplica4Bits.twr"/>
-      <outfile xil_pn:name="Multiplica4Bits.twx"/>
-      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 

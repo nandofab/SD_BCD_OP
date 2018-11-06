@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-11-06T15:47:30</DateModified>
-  <ModuleName>Adder2DigitsBCD</ModuleName>
-  <SummaryTimeStamp>2018-11-04T19:37:59</SummaryTimeStamp>
-  <SavedFilePath>/home/lukas/ISE_PROJETOS/SD_BCD_OP/iseconfig/Adder2DigitsBCD.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/lukas/ISE_PROJETOS/SD_BCD_OP/</ImplementationReportsDirectory>
-  <DateInitialized>2018-11-04T19:40:52</DateInitialized>
+  <DateModified>2018-11-06T15:11:41</DateModified>
+  <ModuleName>Multiplica4Bits</ModuleName>
+  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SavedFilePath>/home/lukas/ISE_PROJETOS/SD_BCD_OP/iseconfig/Multiplica4Bits.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/lukas/ISE_PROJETOS/SD_BCD_OP</ImplementationReportsDirectory>
+  <DateInitialized>2018-11-06T15:11:41</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>
