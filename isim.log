@@ -1,6 +1,5 @@
 ISim log file
-Running: /home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica2Digits_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica2Digits_isim_beh.wdb 
-INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+Running: /home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x1Digits_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x1Digits_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -12,26 +11,8 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# isim force add /multiplica2digits/a 1001 -radix bin -value 0110 -radix bin -time 2 us -repeat 4 us -cancel 16 us
-# isim force add /multiplica2digits/b 1001 -radix bin -value 0101 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# isim force add /multiplica2digits/cin 1001 -radix bin -value 0101 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# isim force add /multiplica2digits/cin 1001 -radix bin -value 0101 -radix bin -time 1 us -repeat 2 us -cancel 16 us
+# isim force add /multiplica4x1digits/a 0000000010000000 -radix bin -value 1001100110011001 -radix bin -time 2 us -repeat 4 us -cancel 16 us
+# isim force add /multiplica4x1digits/b 0100 -radix bin -value 1001 -radix bin -time 1 us -repeat 2 us -cancel 16 us
+# isim force add /multiplica4x1digits/b 0100 -radix bin -value 1001 -radix bin -time 1 us -repeat 2 us -cancel 16 us
 # run all
-# restart
-# isim force add /multiplica2digits/a 1001 -radix bin -value 0110 -radix bin -time 2 us -repeat 4 us -cancel 16 us
-# isim force add /multiplica2digits/b 0111 -radix bin -value 0101 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# isim force add /multiplica2digits/cin 1001 -radix bin -value 0110 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# isim force add /multiplica2digits/cin 1001 -radix bin -value 0110 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# run all
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-# restart
-# isim force add /multiplica2digits/a 0011 -radix bin -value 0100 -radix bin -time 2 us -repeat 4 us -cancel 16 us
-# isim force add /multiplica2digits/b 0010 -radix bin -value 0111 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# isim force add /multiplica2digits/cin 0010 -radix bin -value 0111 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# isim force add /multiplica2digits/cin 0010 -radix bin -value 0111 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# run all
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-# exit 0
 # exit 0
