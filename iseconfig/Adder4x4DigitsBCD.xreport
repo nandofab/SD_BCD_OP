@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-11-07T13:14:09</DateModified>
+  <DateModified>2018-11-07T18:26:37</DateModified>
   <ModuleName>Adder4x4DigitsBCD</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/lukas/ISE_PROJETOS/SD_BCD_OP/iseconfig/Adder4x4DigitsBCD.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/lukas/ISE_PROJETOS/SD_BCD_OP</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/nando/Desktop/UFRJ/6 periodo/SD/SD_Lab/SD_BCD_OPERATIONS/iseconfig/Adder4x4DigitsBCD.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/nando/Desktop/UFRJ/6 periodo/SD/SD_Lab/SD_BCD_OPERATIONS\</ImplementationReportsDirectory>
   <DateInitialized>2018-11-07T13:14:09</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
