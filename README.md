@@ -1,10 +1,12 @@
+
 # OPERATIONS WITH BCD NUMBERS
 
 Feitos:
 - Somador 1 bit, 4 bits e 8 bits;
 - Multiplicador 4 bits;
 - Somador 2 digitos;
-- Multiplicador 2 dígitos.
+- Multiplicador 2 dígitos;
+- Multiplicador 4x1 Dígitos.
 
 Faltando:
 - Generalizar para operações de números de até 4 dígitos;
@@ -18,5 +20,3 @@ Obs:
    esquerda para direita, seguida do acionamento da tecla ENTER.
 3) A seleção da operação (soma ou multiplicação) se fará por meio
    de uma das chaves da placa.
-
-
