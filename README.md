@@ -4,12 +4,15 @@
 Feitos:
 - Somador 1 bit, 4 bits e 8 bits;
 - Multiplicador 4 bits;
-- Somador 2 digitos;
-- Multiplicador 2 dígitos;
-- Multiplicador 4x1 Dígitos.
+- Somador 1x1 digito;
+- Multiplicador 1x1 dígito;
+- Multiplicador 4x1 Dígitos;
+- Somador 4x4 Dígitos BCD;
+- Multiplicador 4x4 Dígitos BCD.
 
 Faltando:
-- Generalizar para operações de números de até 4 dígitos;
+- O módulo Adder8x8DigitsBCD com A,B (entradas) e Saida (saída);
+
 - Depois, montar máquinas de estado para leitura e exibição dos números
   e resultados das operações através do teclado e display.
   
