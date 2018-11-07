@@ -4,7 +4,7 @@
 Feitos:
 - Somador 1 bit, 4 bits e 8 bits;
 - Multiplicador 4 bits;
-- Somador 1x1 digito BCD;
+- Somador 1x1 dígito BCD;
 - Somador 4x4 dígitos BCD;
 - Multiplicador 1x1 dígito BCD;
 - Multiplicador 4x1 dígitos BCD;
