@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="NgdBuild" timeStamp="Tue Nov  6 21:54:51 2018">
+  <application stringID="NgdBuild" timeStamp="Wed Nov  7 10:42:02 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -49,7 +49,7 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz"/>
-          <item stringID="speed" value="2468.554 MHz"/>
+          <item stringID="speed" value="2656.811 MHz"/>
         </row>
       </table>
     </section>
@@ -69,24 +69,22 @@
         <item dataType="int" stringID="NGDBUILD_NUM_INFOS" value="0"/>
       </section>
       <section stringID="NGDBUILD_PRE_UNISIM_SUMMARY">
-        <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="20"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="9"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="12"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="21"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="34"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT6" value="103"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_MUXF7" value="5"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="20"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="32"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="7"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="8"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT6" value="16"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="17"/>
       </section>
       <section stringID="NGDBUILD_POST_UNISIM_SUMMARY">
-        <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="20"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="9"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="12"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="21"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="34"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT6" value="103"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_MUXF7" value="5"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="20"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="32"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="7"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="8"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT6" value="16"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="17"/>
       </section>
       <section stringID="NGDBUILD_CORE_GENERATION_SUMMARY">
         <section stringID="NGDBUILD_CORE_INSTANCES"/>
