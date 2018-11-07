@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Reading design: Adder4DigitsBCD.prj
@@ -118,224 +118,34 @@ Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.vhd" into 
 Parsing entity <Adder2DigitsBCD>.
 Parsing architecture <Behavioral> of entity <adder2digitsbcd>.
 Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" into library work
-Parsing entity <Adder4DigitsBCD>.
+Parsing entity <Adder4x4DigitsBCD>.
 Parsing architecture <Behavioral> of entity <adder4digitsbcd>.
-
-=========================================================================
-*                            HDL Elaboration                            *
-=========================================================================
-
-Elaborating entity <Adder4DigitsBCD> (architecture <Behavioral>) from library <work>.
-
-Elaborating entity <Adder2DigitsBCD> (architecture <Behavioral>) from library <work>.
-
-Elaborating entity <Adder4Bits> (architecture <Behavioral>) from library <work>.
-
-Elaborating entity <Adder1Bit> (architecture <Behavioral>) from library <work>.
-
-=========================================================================
-*                           HDL Synthesis                               *
-=========================================================================
-
-Synthesizing Unit <Adder4DigitsBCD>.
-    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd".
-    Summary:
-	no macro.
-Unit <Adder4DigitsBCD> synthesized.
-
-Synthesizing Unit <Adder2DigitsBCD>.
-    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.vhd".
-INFO:Xst:3210 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.vhd" line 71: Output port <Cout> of the instance <Adder_6> is unconnected or connected to loadless signal.
-    Summary:
-	no macro.
-Unit <Adder2DigitsBCD> synthesized.
-
-Synthesizing Unit <Adder4Bits>.
-    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4Bits.vhd".
-    Summary:
-	no macro.
-Unit <Adder4Bits> synthesized.
-
-Synthesizing Unit <Adder1Bit>.
-    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder1Bit.vhd".
-    Summary:
-Unit <Adder1Bit> synthesized.
-
-=========================================================================
-HDL Synthesis Report
-
-Macro Statistics
-# Xors                                                 : 64
- 1-bit xor2                                            : 64
-
-=========================================================================
-
-=========================================================================
-*                       Advanced HDL Synthesis                          *
-=========================================================================
-
-
-=========================================================================
-Advanced HDL Synthesis Report
-
-Macro Statistics
-# Xors                                                 : 64
- 1-bit xor2                                            : 64
-
-=========================================================================
-
-=========================================================================
-*                         Low Level Synthesis                           *
-=========================================================================
-
-Optimizing unit <Adder4DigitsBCD> ...
-
-Mapping all equations...
-Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Adder4DigitsBCD, actual ratio is 0.
-
-Final Macro Processing ...
-
-=========================================================================
-Final Register Report
-
-Found no macro
-=========================================================================
-
-=========================================================================
-*                           Partition Report                            *
-=========================================================================
-
-Partition Implementation Status
--------------------------------
-
-  No Partitions were found in this design.
-
--------------------------------
-
-=========================================================================
-*                            Design Summary                             *
-=========================================================================
-
-Top Level Output File Name         : Adder4DigitsBCD.ngc
-
-Primitive and Black Box Usage:
-------------------------------
-# BELS                             : 34
-#      LUT2                        : 1
-#      LUT3                        : 2
-#      LUT4                        : 7
-#      LUT5                        : 8
-#      LUT6                        : 16
-# IO Buffers                       : 49
-#      IBUF                        : 32
-#      OBUF                        : 17
-
-Device utilization summary:
----------------------------
-
-Selected Device : 7a100tcsg324-3 
-
-
-Slice Logic Utilization: 
- Number of Slice LUTs:                   34  out of  63400     0%  
-    Number used as Logic:                34  out of  63400     0%  
-
-Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     34
-   Number with an unused Flip Flop:      34  out of     34   100%  
-   Number with an unused LUT:             0  out of     34     0%  
-   Number of fully used LUT-FF pairs:     0  out of     34     0%  
-   Number of unique control sets:         0
-
-IO Utilization: 
- Number of IOs:                          49
- Number of bonded IOBs:                  49  out of    210    23%  
-
-Specific Feature Utilization:
-
----------------------------
-Partition Resource Summary:
----------------------------
-
-  No Partitions were found in this design.
-
----------------------------
-
-
-=========================================================================
-Timing Report
-
-NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
-      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
-      GENERATED AFTER PLACE-and-ROUTE.
-
-Clock Information:
-------------------
-No clock signals found in this design
-
-Asynchronous Control Signals Information:
-----------------------------------------
-No asynchronous control signals found in this design
-
-Timing Summary:
----------------
-Speed Grade: -3
-
-   Minimum period: No path found
-   Minimum input arrival time before clock: No path found
-   Maximum output required time after clock: No path found
-   Maximum combinational path delay: 6.598ns
-
-Timing Details:
----------------
-All values displayed in nanoseconds (ns)
-
-=========================================================================
-Timing constraint: Default path analysis
-  Total number of paths / destination ports: 1894 / 17
--------------------------------------------------------------------------
-Delay:               6.598ns (Levels of Logic = 12)
-  Source:            A<1> (PAD)
-  Destination:       S<13> (PAD)
-
-  Data Path: A<1> to S<13>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             4   0.001   0.570  A_1_IBUF (A_1_IBUF)
-     LUT4:I0->O            2   0.097   0.516  Ad0_BCD/Adder/Ad1/Cout1 (Ad0_BCD/Adder/c<2>)
-     LUT4:I1->O            3   0.097   0.389  Ad0_BCD/SomaOuNao_611 (Ad0_BCD/SomaOuNao_61)
-     LUT4:I2->O            5   0.097   0.398  Ad0_BCD/SomaOuNao_61 (Cout4DigitsBCD<0>)
-     LUT5:I3->O            5   0.097   0.712  Ad1_BCD/Adder/Ad1/Cout1 (Ad1_BCD/Adder/c<2>)
-     LUT6:I0->O            4   0.097   0.393  Ad1_BCD/SomaOuNao_61 (Cout4DigitsBCD<1>)
-     LUT5:I3->O            5   0.097   0.712  Ad2_BCD/Adder/Ad1/Cout1 (Ad2_BCD/Adder/c<2>)
-     LUT6:I0->O            4   0.097   0.393  Ad2_BCD/SomaOuNao_61 (Cout4DigitsBCD<2>)
-     LUT5:I3->O            3   0.097   0.703  Ad3_BCD/Adder/Ad1/Cout1 (Ad3_BCD/Adder/c<2>)
-     LUT6:I0->O            2   0.097   0.561  Ad3_BCD/SomaOuNao_61 (Cout_OBUF)
-     LUT6:I2->O            1   0.097   0.279  Ad3_BCD/Adder_6/Ad1/Mxor_S_xo<0>1 (S_13_OBUF)
-     OBUF:I->O                 0.000          S_13_OBUF (S<13>)
-    ----------------------------------------
-    Total                      6.598ns (0.971ns logic, 5.627ns route)
-                                       (14.7% logic, 85.3% route)
-
-=========================================================================
-
-Cross Clock Domains Report:
---------------------------
-
-=========================================================================
-
-
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.13 secs
- 
+ERROR:HDLCompiler:374 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 39: Entity <adder4digitsbcd> is not yet compiled.
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 41: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 44: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 45: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 46: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 47: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 48: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 53: <a> is not declared.
+ERROR:HDLCompiler:629 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 54: Near character '0' ; 0 visible types match here
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 54: <s> is not declared.
+ERROR:HDLCompiler:192 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 54: Actual of formal out port saida cannot be an expression
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 56: <a> is not declared.
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 57: <cout4digitsbcd> is not declared.
+ERROR:HDLCompiler:192 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 57: Actual of formal out port saida cannot be an expression
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 59: <a> is not declared.
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 60: <cout4digitsbcd> is not declared.
+ERROR:HDLCompiler:192 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 60: Actual of formal out port saida cannot be an expression
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 62: <a> is not declared.
+ERROR:HDLCompiler:69 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" Line 63: <cout4digitsbcd> is not declared.
+Sorry, too many errors..
 --> 
 
 
-Total memory usage is 496344 kilobytes
+Total memory usage is 344384 kilobytes
 
-Number of errors   :    0 (   0 filtered)
+Number of errors   :   19 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
-Number of infos    :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
 

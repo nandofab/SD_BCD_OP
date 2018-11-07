@@ -29,14 +29,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity Adder4DigitsBCD is
+entity Adder4x4DigitsBCD is
     Port ( A : in  STD_LOGIC_VECTOR (15 downto 0);
            B : in  STD_LOGIC_VECTOR (15 downto 0);
            S : out  STD_LOGIC_VECTOR (15 downto 0);
            Cout : out  STD_LOGIC);
-end Adder4DigitsBCD;
+end Adder4x4DigitsBCD;
 
-architecture Behavioral of Adder4DigitsBCD is
+architecture Behavioral of Adder4x4DigitsBCD is
 	
 	signal Cout4DigitsBCD: std_logic_vector (3 downto 0); 
 
