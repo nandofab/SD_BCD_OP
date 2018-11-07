@@ -29,6 +29,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+-- ALOU ALOU GALERA DE COWBOY
+
 entity Adder4x4DigitsBCD is
     Port ( A : in  STD_LOGIC_VECTOR (15 downto 0);
            B : in  STD_LOGIC_VECTOR (15 downto 0);
