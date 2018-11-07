@@ -345,6 +345,8 @@
     <transform xil_pn:end_ts="1541602221" xil_pn:in_ck="9015673068031638596" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-3970583155594920131" xil_pn:start_ts="1541602209">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Adder2DigitsBCD.ngr"/>
       <outfile xil_pn:name="Adder4x4DigitsBCD.lso"/>
       <outfile xil_pn:name="Adder4x4DigitsBCD.ngc"/>
@@ -366,6 +368,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Adder4x4DigitsBCD.bld"/>
       <outfile xil_pn:name="Adder4x4DigitsBCD.ngd"/>

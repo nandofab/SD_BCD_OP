@@ -81,9 +81,9 @@ begin
 	parte4_soma <= soma3 & "000000000000";
 	
 	
-	somaBCD01: Adder8x8DigitsBCD port map ( parte1_soma, parte2_soma, resultado01); 
-	somaBCD23: Adder8x8DigitsBCD port map ( parte3_soma, parte4_soma, resultado02); 
-	resultado_0123: Adder8x8DigitsBCD port map ( resultado01, resultado02, saida_real); 
+	somaBCD12: Adder8x8DigitsBCD port map ( parte1_soma, parte2_soma, resultado01); 
+	somaBCD34: Adder8x8DigitsBCD port map ( parte3_soma, parte4_soma, resultado02); 
+	resultado_1234: Adder8x8DigitsBCD port map ( resultado01, resultado02, saida_real); 
 	
 	Saida <= saida_real; 
 
