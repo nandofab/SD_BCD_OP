@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    21:15:26 11/06/2018 
+-- Create Date:    10:50:39 11/07/2018 
 -- Design Name: 
--- Module Name:    Multiplica8Digits - Behavioral 
+-- Module Name:    Multiplic4x4Digits - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,26 +29,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity Multiplica4x4Digits is
-  
-  Port ( A : in  STD_LOGIC_VECTOR (15 downto 0);
-         B : in  STD_LOGIC_VECTOR (15 downto 0);
-         Saida : out  STD_LOGIC_VECTOR (31 downto 0));
+entity Multiplic4x4Digits is
+end Multiplic4x4Digits;
 
-end Multiplica4x4Digits;
-
-architecture Behavioral of Multiplica4x4Digits is
-
-	component Multiplica2Digits 
-
-	Port ( A : in  STD_LOGIC_VECTOR(3 downto 0);
-			 B : in  STD_LOGIC_VECTOR(3 downto 0);
-          Cin : in  STD_LOGIC_VECTOR (3 downto 0); 		
-          Saida_Mult : out  STD_LOGIC_VECTOR(3 downto 0);
-          Cout : out  STD_LOGIC_VECTOR (3 downto 0));		
-
-	end component;
-
+architecture Behavioral of Multiplic4x4Digits is
 
 begin
 
