@@ -41,11 +41,9 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Adder2DigitsBCD.unroutes" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="Adder2DigitsBCD.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Adder2DigitsBCD.xst"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Adder2DigitsBCD_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Adder2DigitsBCD_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Adder2DigitsBCD_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Adder2DigitsBCD_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Adder2DigitsBCD_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Adder2DigitsBCD_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Adder2DigitsBCD_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Adder2DigitsBCD_map.ncd" xil_pn:subbranch="Map"/>
@@ -85,6 +83,33 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Adder8Bits_pad.txt" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Adder8Bits_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Adder8Bits_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Multiplica2Digits.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Multiplica2Digits.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Multiplica2Digits.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Multiplica2Digits.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Multiplica2Digits.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Multiplica2Digits.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Multiplica2Digits.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Multiplica2Digits.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Multiplica2Digits.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplica2Digits.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Multiplica2Digits.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Multiplica2Digits.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Multiplica2Digits.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Multiplica2Digits.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Multiplica2Digits.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Multiplica2Digits.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Multiplica2Digits_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Multiplica2Digits_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplica2Digits_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Multiplica2Digits_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Multiplica2Digits_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Multiplica2Digits_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Multiplica2Digits_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Multiplica2Digits_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Multiplica2Digits_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Multiplica2Digits_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Multiplica2Digits_xst.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Multiplica4Bits.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Multiplica4Bits.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Multiplica4Bits.lso"/>
@@ -118,6 +143,43 @@
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Multiplica4Bits_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Multiplica4Bits_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Multiplica4Bits_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Multiplica4x1Digits.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Multiplica4x1Digits.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Multiplica4x1Digits.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Multiplica4x1Digits.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Multiplica4x1Digits.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Multiplica4x1Digits.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Multiplica4x1Digits.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Multiplica4x1Digits.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Multiplica4x1Digits.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Multiplica4x1Digits.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplica4x1Digits.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Multiplica4x1Digits.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Multiplica4x1Digits.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Multiplica4x1Digits.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Multiplica4x1Digits.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Multiplica4x1Digits.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Multiplica4x1Digits.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Multiplica4x1Digits.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Multiplica4x1Digits.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplica4x1Digits_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Multiplica4x1Digits_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Multiplica4x1Digits_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplica4x1Digits_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Multiplica4x1Digits_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Multiplica4x1Digits_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Multiplica4x1Digits_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Multiplica4x1Digits_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Multiplica4x1Digits_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Multiplica4x1Digits_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Multiplica4x1Digits_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Multiplica4x1Digits_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Multiplica4x1Digits_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Multiplica4x1Digits_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Multiplica4x1Digits_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Multiplica4x1Digits_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Multiplica4x1Digits_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Multiplica4x1Digits_xst.xrpt"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
@@ -127,6 +189,7 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -138,164 +201,159 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540742030" xil_pn:in_ck="-1675472165351740475" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1540742030">
+    <transform xil_pn:end_ts="1541548489" xil_pn:in_ck="6033801890207896328" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1541548489">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Adder1Bit.vhd"/>
       <outfile xil_pn:name="Adder2DigitsBCD.vhd"/>
       <outfile xil_pn:name="Adder4Bits.vhd"/>
+      <outfile xil_pn:name="Adder8Bits.vhd"/>
+      <outfile xil_pn:name="Multiplica2Digits.vhd"/>
+      <outfile xil_pn:name="Multiplica4Bits.vhd"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.vhd"/>
+      <outfile xil_pn:name="Multiplica8Digits.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1540742030" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1597475291809056012" xil_pn:start_ts="1540742030">
+    <transform xil_pn:end_ts="1541548205" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4705127177230395966" xil_pn:start_ts="1541548205">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540742030" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4640753145360777514" xil_pn:start_ts="1540742030">
+    <transform xil_pn:end_ts="1541548205" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6100126514488962336" xil_pn:start_ts="1541548205">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540742030" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3571493689108684078" xil_pn:start_ts="1540742030">
+    <transform xil_pn:end_ts="1541548205" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2257013921258530632" xil_pn:start_ts="1541548205">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1540742030" xil_pn:in_ck="-1675472165351740475" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1540742030">
+    <transform xil_pn:end_ts="1541548489" xil_pn:in_ck="6033801890207896328" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1541548489">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Adder1Bit.vhd"/>
       <outfile xil_pn:name="Adder2DigitsBCD.vhd"/>
       <outfile xil_pn:name="Adder4Bits.vhd"/>
+      <outfile xil_pn:name="Adder8Bits.vhd"/>
+      <outfile xil_pn:name="Multiplica2Digits.vhd"/>
+      <outfile xil_pn:name="Multiplica4Bits.vhd"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.vhd"/>
+      <outfile xil_pn:name="Multiplica8Digits.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1540742035" xil_pn:in_ck="-1675472165351740475" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1303373007379933039" xil_pn:start_ts="1540742030">
+    <transform xil_pn:end_ts="1541548491" xil_pn:in_ck="6033801890207896328" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2083506343160217405" xil_pn:start_ts="1541548489">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Adder2DigitsBCD_beh.prj"/>
-      <outfile xil_pn:name="Adder2DigitsBCD_isim_beh.exe"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_beh.prj"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1540742035" xil_pn:in_ck="780221057282778190" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8884911268985412372" xil_pn:start_ts="1540742035">
+    <transform xil_pn:end_ts="1541548491" xil_pn:in_ck="-7112137670899079925" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8532728378318076672" xil_pn:start_ts="1541548491">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Adder2DigitsBCD_isim_beh.wdb"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1540741247" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1540741247">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5349736917181302171" xil_pn:start_ts="1541367656">
+    <transform xil_pn:end_ts="1541548069" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2698424491815387296" xil_pn:start_ts="1541548069">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-4432142691464643219" xil_pn:start_ts="1541367656">
+    <transform xil_pn:end_ts="1541548069" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2257013921258530632" xil_pn:start_ts="1541548069">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1541367656">
+    <transform xil_pn:end_ts="1541548069" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1541548069">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5396527705568235143" xil_pn:start_ts="1541367656">
+    <transform xil_pn:end_ts="1541548069" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4705127177230395966" xil_pn:start_ts="1541548069">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1541367656">
+    <transform xil_pn:end_ts="1541548069" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1541548069">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541367656" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5516909183594532343" xil_pn:start_ts="1541367656">
+    <transform xil_pn:end_ts="1541548069" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3958225687347122990" xil_pn:start_ts="1541548069">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541367668" xil_pn:in_ck="7246445592436643550" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="7506421805461741130" xil_pn:start_ts="1541367656">
+    <transform xil_pn:end_ts="1541548483" xil_pn:in_ck="6033801890207896328" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-6387927776270049083" xil_pn:start_ts="1541548469">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Adder2DigitsBCD.ngr"/>
       <outfile xil_pn:name="Adder8Bits.ngr"/>
-      <outfile xil_pn:name="Multiplica4Bits.lso"/>
-      <outfile xil_pn:name="Multiplica4Bits.ngc"/>
+      <outfile xil_pn:name="Multiplica2Digits.ngr"/>
       <outfile xil_pn:name="Multiplica4Bits.ngr"/>
-      <outfile xil_pn:name="Multiplica4Bits.prj"/>
-      <outfile xil_pn:name="Multiplica4Bits.stx"/>
-      <outfile xil_pn:name="Multiplica4Bits.syr"/>
-      <outfile xil_pn:name="Multiplica4Bits.xst"/>
-      <outfile xil_pn:name="Multiplica4Bits_xst.xrpt"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.lso"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.ngc"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.ngr"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.prj"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.stx"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.syr"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.xst"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_beh.prj"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1541367668" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-3543544944883056974" xil_pn:start_ts="1541367668">
+    <transform xil_pn:end_ts="1541548077" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1629529954818801811" xil_pn:start_ts="1541548077">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1541367675" xil_pn:in_ck="-1659226584941822059" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-3065320283248240418" xil_pn:start_ts="1541367668">
+    <transform xil_pn:end_ts="1541548492" xil_pn:in_ck="5644878228391753312" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7088398290092379399" xil_pn:start_ts="1541548483">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="Multiplica4Bits.bld"/>
-      <outfile xil_pn:name="Multiplica4Bits.ngd"/>
-      <outfile xil_pn:name="Multiplica4Bits_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.bld"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.ngd"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1541367704" xil_pn:in_ck="4330990280407294194" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1541367675">
+    <transform xil_pn:end_ts="1541548525" xil_pn:in_ck="-336588402690477051" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1541548492">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="Multiplica4Bits.pcf"/>
-      <outfile xil_pn:name="Multiplica4Bits_map.map"/>
-      <outfile xil_pn:name="Multiplica4Bits_map.mrp"/>
-      <outfile xil_pn:name="Multiplica4Bits_map.ncd"/>
-      <outfile xil_pn:name="Multiplica4Bits_map.ngm"/>
-      <outfile xil_pn:name="Multiplica4Bits_map.xrpt"/>
-      <outfile xil_pn:name="Multiplica4Bits_summary.xml"/>
-      <outfile xil_pn:name="Multiplica4Bits_usage.xml"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.pcf"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_map.map"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_map.mrp"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_map.ncd"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_map.ngm"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_map.xrpt"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_summary.xml"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1541367743" xil_pn:in_ck="5133678860920591492" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1541367704">
+    <transform xil_pn:end_ts="1541548564" xil_pn:in_ck="-8939406609217850718" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1541548525">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="Multiplica4Bits.ncd"/>
-      <outfile xil_pn:name="Multiplica4Bits.pad"/>
-      <outfile xil_pn:name="Multiplica4Bits.par"/>
-      <outfile xil_pn:name="Multiplica4Bits.ptwx"/>
-      <outfile xil_pn:name="Multiplica4Bits.unroutes"/>
-      <outfile xil_pn:name="Multiplica4Bits.xpi"/>
-      <outfile xil_pn:name="Multiplica4Bits_pad.csv"/>
-      <outfile xil_pn:name="Multiplica4Bits_pad.txt"/>
-      <outfile xil_pn:name="Multiplica4Bits_par.xrpt"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.ncd"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.pad"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.par"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.ptwx"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.unroutes"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.xpi"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_pad.csv"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_pad.txt"/>
+      <outfile xil_pn:name="Multiplica4x1Digits_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1541367743" xil_pn:in_ck="2375659134464079466" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1541367727">
+    <transform xil_pn:end_ts="1541548564" xil_pn:in_ck="-3992988269346788623" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1541548549">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="Multiplica4Bits.twr"/>
-      <outfile xil_pn:name="Multiplica4Bits.twx"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.twr"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
     </transform>
   </transforms>

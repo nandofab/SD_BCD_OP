@@ -16,16 +16,28 @@
          <ClosedNode>/Adder4Bits - Behavioral |home|sd|Documents|SomaEMultBCD|Adder4Bits.vhd</ClosedNode>
          <ClosedNode>/Adder8Bits - Adder8Bits |home|lukas|ISE_PROJETOS|SD_BCD_OP|Adder8Bits.vhd/Adder4Bits01 - Adder4Bits - Behavioral</ClosedNode>
          <ClosedNode>/Adder8Bits - Adder8Bits |home|lukas|ISE_PROJETOS|SD_BCD_OP|Adder8Bits.vhd/Adder4Bits02 - Adder4Bits - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica2Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica2Digits.vhd/Adder2DigitsBCD01 - Adder2DigitsBCD - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica2Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica2Digits.vhd/Adder2DigitsBCD02 - Adder2DigitsBCD - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica2Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica2Digits.vhd/Adder8Bits01 - Adder8Bits - Adder8Bits</ClosedNode>
+         <ClosedNode>/Multiplica2Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica2Digits.vhd/Multiplica1 - Multiplica4Bits - multiplicaArch</ClosedNode>
+         <ClosedNode>/Multiplica2Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica2Digits.vhd/Multiplica1 - Multiplica4Bits - multiplicaArch/resultado_0123 - Adder8Bits - Adder8Bits</ClosedNode>
+         <ClosedNode>/Multiplica2Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica2Digits.vhd/Multiplica1 - Multiplica4Bits - multiplicaArch/somaBit01 - Adder8Bits - Adder8Bits/Adder4Bits01 - Adder4Bits - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica2Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica2Digits.vhd/Multiplica1 - Multiplica4Bits - multiplicaArch/somaBit01 - Adder8Bits - Adder8Bits/Adder4Bits02 - Adder4Bits - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica2Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica2Digits.vhd/Multiplica1 - Multiplica4Bits - multiplicaArch/somaBit23 - Adder8Bits - Adder8Bits</ClosedNode>
+         <ClosedNode>/Multiplica4Bits - multiplicaArch |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4Bits.vhd/resultado_0123 - Adder8Bits - Adder8Bits</ClosedNode>
+         <ClosedNode>/Multiplica4Bits - multiplicaArch |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4Bits.vhd/somaBit01 - Adder8Bits - Adder8Bits</ClosedNode>
+         <ClosedNode>/Multiplica4Bits - multiplicaArch |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4Bits.vhd/somaBit23 - Adder8Bits - Adder8Bits</ClosedNode>
+         <ClosedNode>/Multiplica4x1Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x1Digits.vhd</ClosedNode>
          <ClosedNode>/eightBitsAdder - Adder8Bits |home|lukas|ISE_PROJETOS|SD_BCD_OP|Adder8Bits.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Adder8DigitsBCD - Behavioral (/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder8DigitsBCD.vhd)</SelectedItem>
+         <SelectedItem>Multiplica4x1Digits - Behavioral (/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x1Digits.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d4000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d40000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001b9000000020000000000000000000000000200000064ffffffff000000810000000300000002000001b90000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Adder8DigitsBCD - Behavioral (/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder8DigitsBCD.vhd)</CurrentItem>
+      <CurrentItem>Multiplica4x1Digits - Behavioral (/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x1Digits.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -41,7 +53,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000126000000010000000100000000000000000000000064ffffffff000000810000000000000001000001260000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -82,7 +94,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000126000000010000000100000000000000000000000064ffffffff000000810000000000000001000001260000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -92,15 +104,16 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Adder2DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SomaEMultBCD|Adder2DigitsBCD.vhd</ClosedNode>
+         <ClosedNode>/Multiplica4x1Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x1Digits.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Adder2DigitsBCD - Behavioral (/home/lukas/ISE_PROJETOS/SomaEMultBCD/Adder2DigitsBCD.vhd)</SelectedItem>
+         <SelectedItem>Multiplica4x1Digits - Behavioral (/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x1Digits.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000199000000020000000000000000000000000200000064ffffffff000000810000000300000002000001990000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Adder2DigitsBCD - Behavioral (/home/lukas/ISE_PROJETOS/SomaEMultBCD/Adder2DigitsBCD.vhd)</CurrentItem>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a9000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a90000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Multiplica4x1Digits - Behavioral (/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x1Digits.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -108,13 +121,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000126000000010000000100000000000000000000000064ffffffff000000810000000000000001000001260000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -136,8 +149,8 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" ></ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" />
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
 </Project>

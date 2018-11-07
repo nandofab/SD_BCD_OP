@@ -78,6 +78,6 @@ begin
 	somaBit23: Adder8Bits port map (parte3_soma_final,parte4_soma_final,'0',resultado_parcial02); 
 	resultado_0123: Adder8Bits port map (resultado_parcial01,resultado_parcial02,'0',saida_real); 
 	
-	S <= saida_real;
+	S <= saida_real; -- 8 Bits (sendo que só precisa de 7 bits - máximo 81)
 	
 end multiplicaArch;

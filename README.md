@@ -1,8 +1,22 @@
-# SD_BCD_OP
-Operations with BCD numbers:
 
-- Somador 2 digitos feito
-- Somador 2 bits, 4 bits e 8 bits feitos
-- Multiplicador 4 bits feito
+# OPERATIONS WITH BCD NUMBERS
 
-Falta fazer um Multiplicador2Digits onde eu pega a saída de 8 bits desse multiplicador, somo com o Cin de 4 bits (somador de 8 bits - completar com 0's) , depois disso faço o Cout de 4 bits e uma saída de 4 bits na forma BCD. 
+Feitos:
+- Somador 1 bit, 4 bits e 8 bits;
+- Multiplicador 4 bits;
+- Somador 2 digitos;
+- Multiplicador 2 dígitos;
+- Multiplicador 4x1 Dígitos.
+
+Faltando:
+- Generalizar para operações de números de até 4 dígitos;
+- Depois, montar máquinas de estado para leitura e exibição dos números
+  e resultados das operações através do teclado e display.
+  
+Obs: 
+1) Os números devem ser lidos do teclado e exibidos no display 
+   a medida em que forem pressionados.
+2) A entrada de cada número ocorrerá pela digitação dos algarismos da 
+   esquerda para direita, seguida do acionamento da tecla ENTER.
+3) A seleção da operação (soma ou multiplicação) se fará por meio
+   de uma das chaves da placa.
