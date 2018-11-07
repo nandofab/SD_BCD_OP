@@ -9,6 +9,7 @@ Feitos:
 - Multiplicador 1x1 dígito BCD;
 - Multiplicador 4x1 dígitos BCD;
 - Multiplicador 4x4 dígitos BCD.
+- Adicao de txt teste
 
 Faltando:
 - O módulo Adder8x8DigitsBCD com A,B (entradas) e Saida (saída);
