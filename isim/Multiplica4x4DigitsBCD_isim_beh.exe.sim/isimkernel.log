@@ -2,30 +2,28 @@ Command line:
    Multiplica4x4DigitsBCD_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  42803
+     -socket  41947
 
-Thu Nov  8 10:25:10 2018
+Thu Nov  8 19:09:38 2018
 
 
- Elaboration Time: 0.05 sec
+ Elaboration Time: 0.07 sec
 
- Current Memory Usage: 215.314 Meg
+ Current Memory Usage: 215.339 Meg
 
  Total Signals          : 7802
  Total Nets             : 4305
- Total Signal Drivers   : 2789
+ Total Signal Drivers   : 2773
  Total Blocks           : 1367
  Total Primitive Blocks : 961
- Total Processes        : 2741
+ Total Processes        : 2725
  Total Traceable Variables  : 8
  Total Scalar Nets and Variables : 4665
-Total Line Count : 2869
-Total Line Count : 2869
-Total Line Count : 2869
+Total Line Count : 2853
 
- Total Simulation Time: 0.26 sec
+ Total Simulation Time: 0.13 sec
 
- Current Memory Usage: 290.951 Meg
+ Current Memory Usage: 290.841 Meg
 
-Thu Nov  8 10:36:25 2018
+Thu Nov  8 19:13:45 2018
 

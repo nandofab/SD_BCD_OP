@@ -58,13 +58,16 @@ begin
 	Multiplica3x1: Multiplica2Digits port map (A(11 downto 8), B, C2, S3, C3);
 	Multiplica4x1: Multiplica2Digits port map (A(15 downto 12), B, C3, S4, C4);
 	
-	Saida(3 downto 0) <= S1;
-	Saida(7 downto 4) <= S2;
-	Saida(11 downto 8) <= S3;
-	Saida(15 downto 12) <= S4;
+	Saida <= C4 & S4 & S3 & S2 & S1;
+	
 	-- O Cout nesse módulo não será utilizado da maneira padrão
 	-- pois esse módulo é auxiliar para o módulo de multiplicação geral
-	Saida(19 downto 16) <= C4;
+	
+	--Saida(3 downto 0) <= S1;
+	--Saida(7 downto 4) <= S2;
+	--Saida(11 downto 8) <= S3;
+	--Saida(15 downto 12) <= S4;
+	--Saida(19 downto 16) <= C4;
 	
 end Behavioral;
 

@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4DigitsBCD_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4DigitsBCD_isim_beh.wdb 
+Running: /home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x4DigitsBCD_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x4DigitsBCD_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,16 +11,8 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# isim force add /adder4x4digitsbcd/a 1001100110011001 -radix bin -value 0010100110000001 -radix bin -time 2 us -repeat 4 us -cancel 16 us
-# isim force add /adder4x4digitsbcd/b 1001100110011001 -radix bin -value 0010100110000001 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# isim force add /adder4x4digitsbcd/b 1001100110011001 -radix bin -value 0010100110000001 -radix bin -time 1 us -repeat 2 us -cancel 16 us
+# isim force add /multiplica4x4digitsbcd/a 0000010000000000 -radix bin -value 0000000000000011 -radix bin -time 2 us -repeat 4 us -cancel 16 us
+# isim force add /multiplica4x4digitsbcd/b 0000010000000000 -radix bin -value 0000000000000011 -radix bin -time 1 us -repeat 2 us -cancel 16 us
+# isim force add /multiplica4x4digitsbcd/b 0000010000000000 -radix bin -value 0000000000000011 -radix bin -time 1 us -repeat 2 us -cancel 16 us
 # run all
-# restart
-# isim force add /adder4x4digitsbcd/a 1001100110011001 -radix bin -value 0010100110000000 -radix bin -time 2 us -repeat 4 us -cancel 16 us
-# isim force add /adder4x4digitsbcd/b 1001100110011001 -radix bin -value 0010100110000000 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# isim force add /adder4x4digitsbcd/cin 1 -radix bin -value 0 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# isim force add /adder4x4digitsbcd/cin 1 -radix bin -value 0 -radix bin -time 1 us -repeat 2 us -cancel 16 us
-# run all
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
 # exit 0
