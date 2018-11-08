@@ -1,0 +1,467 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: Multiplica4x4DigitsBCD.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Multiplica4x4DigitsBCD.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Multiplica4x4DigitsBCD"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : Multiplica4x4DigitsBCD
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder1Bit.vhd" into library work
+Parsing entity <Adder1Bit>.
+Parsing architecture <Behavioral> of entity <adder1bit>.
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4Bits.vhd" into library work
+Parsing entity <Adder4Bits>.
+Parsing architecture <Behavioral> of entity <adder4bits>.
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder8Bits.vhd" into library work
+Parsing entity <Adder8Bits>.
+Parsing architecture <Adder8Bits> of entity <adder8bits>.
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4Bits.vhd" into library work
+Parsing entity <Multiplica4Bits>.
+Parsing architecture <multiplicaArch> of entity <multiplica4bits>.
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.vhd" into library work
+Parsing entity <Adder2DigitsBCD>.
+Parsing architecture <Behavioral> of entity <adder2digitsbcd>.
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica2Digits.vhd" into library work
+Parsing entity <Multiplica2Digits>.
+Parsing architecture <Behavioral> of entity <multiplica2digits>.
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd" into library work
+Parsing entity <Adder4x4DigitsBCD>.
+Parsing architecture <Behavioral> of entity <adder4x4digitsbcd>.
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x1Digits.vhd" into library work
+Parsing entity <Multiplica4x1Digits>.
+Parsing architecture <Behavioral> of entity <multiplica4x1digits>.
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder8x8DigitsBCD.vhd" into library work
+Parsing entity <Adder8x8DigitsBCD>.
+Parsing architecture <Behavioral> of entity <adder8x8digitsbcd>.
+Parsing VHDL file "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x4Digits.vhd" into library work
+Parsing entity <Multiplica4x4DigitsBCD>.
+Parsing architecture <Behavioral> of entity <multiplica4x4digitsbcd>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Multiplica4x4DigitsBCD> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Multiplica4x1Digits> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Multiplica2Digits> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Multiplica4Bits> (architecture <multiplicaArch>) from library <work>.
+
+Elaborating entity <Adder8Bits> (architecture <Adder8Bits>) from library <work>.
+
+Elaborating entity <Adder4Bits> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Adder1Bit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Adder2DigitsBCD> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Adder8x8DigitsBCD> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Adder4x4DigitsBCD> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Multiplica4x4DigitsBCD>.
+    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x4Digits.vhd".
+    Summary:
+	no macro.
+Unit <Multiplica4x4DigitsBCD> synthesized.
+
+Synthesizing Unit <Multiplica4x1Digits>.
+    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x1Digits.vhd".
+    Summary:
+	no macro.
+Unit <Multiplica4x1Digits> synthesized.
+
+Synthesizing Unit <Multiplica2Digits>.
+    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica2Digits.vhd".
+INFO:Xst:3210 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica2Digits.vhd" line 81: Output port <Cout> of the instance <Adder8Bits01> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica2Digits.vhd" line 86: Output port <Cout> of the instance <Adder2DigitsBCD02> is unconnected or connected to loadless signal.
+    Found 16x8-bit Read Only RAM for signal <_n0030>
+    Summary:
+	inferred   1 RAM(s).
+Unit <Multiplica2Digits> synthesized.
+
+Synthesizing Unit <Multiplica4Bits>.
+    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4Bits.vhd".
+INFO:Xst:3210 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4Bits.vhd" line 77: Output port <Cout> of the instance <somaBit01> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4Bits.vhd" line 78: Output port <Cout> of the instance <somaBit23> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4Bits.vhd" line 79: Output port <Cout> of the instance <resultado_0123> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Multiplica4Bits> synthesized.
+
+Synthesizing Unit <Adder8Bits>.
+    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder8Bits.vhd".
+    Summary:
+	no macro.
+Unit <Adder8Bits> synthesized.
+
+Synthesizing Unit <Adder4Bits>.
+    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4Bits.vhd".
+    Summary:
+	no macro.
+Unit <Adder4Bits> synthesized.
+
+Synthesizing Unit <Adder1Bit>.
+    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder1Bit.vhd".
+    Summary:
+Unit <Adder1Bit> synthesized.
+
+Synthesizing Unit <Adder2DigitsBCD>.
+    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.vhd".
+INFO:Xst:3210 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder2DigitsBCD.vhd" line 71: Output port <Cout> of the instance <Adder_6> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Adder2DigitsBCD> synthesized.
+
+Synthesizing Unit <Adder8x8DigitsBCD>.
+    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder8x8DigitsBCD.vhd".
+INFO:Xst:3210 - "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder8x8DigitsBCD.vhd" line 61: Output port <Cout> of the instance <Adder4x4DigitsBCD02> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Adder8x8DigitsBCD> synthesized.
+
+Synthesizing Unit <Adder4x4DigitsBCD>.
+    Related source file is "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd".
+    Summary:
+	no macro.
+Unit <Adder4x4DigitsBCD> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 16
+ 16x8-bit single-port Read Only RAM                    : 16
+# Xors                                                 : 1920
+ 1-bit xor2                                            : 1920
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Multiplica2Digits>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0030> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <Saida_temp02<7:4>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Multiplica2Digits> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 16
+ 16x8-bit single-port distributed Read Only RAM        : 16
+# Xors                                                 : 1920
+ 1-bit xor2                                            : 1920
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Multiplica4x4DigitsBCD> ...
+
+Optimizing unit <Multiplica4Bits> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Multiplica4x4DigitsBCD, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Multiplica4x4DigitsBCD.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 786
+#      GND                         : 1
+#      LUT2                        : 23
+#      LUT3                        : 40
+#      LUT4                        : 82
+#      LUT5                        : 198
+#      LUT6                        : 435
+#      MUXF7                       : 7
+# IO Buffers                       : 64
+#      IBUF                        : 32
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  778  out of  63400     1%  
+    Number used as Logic:               778  out of  63400     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    778
+   Number with an unused Flip Flop:     778  out of    778   100%  
+   Number with an unused LUT:             0  out of    778     0%  
+   Number of fully used LUT-FF pairs:     0  out of    778     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          64
+ Number of bonded IOBs:                  64  out of    210    30%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 28.317ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2310595570408 / 32
+-------------------------------------------------------------------------
+Delay:               28.317ns (Levels of Logic = 43)
+  Source:            B<4> (PAD)
+  Destination:       Saida<30> (PAD)
+
+  Data Path: B<4> to Saida<30>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            36   0.001   0.664  B_4_IBUF (B_4_IBUF)
+     LUT4:I0->O            2   0.097   0.560  Multiplica4x02Digits/Multiplica1x1/Multiplica1/resultado_0123/Adder4Bits01/Ad3/Mxor_S_xo<0>11 (Multiplica4x02Digits/Multiplica1x1/Multiplica1/resultado_0123/Adder4Bits01/Ad3/Mxor_S_xo<0>1)
+     LUT6:I2->O            4   0.097   0.309  Multiplica4x02Digits/Multiplica1x1/Multiplica1/resultado_0123/Adder4Bits01/Ad3/Cout1 (Multiplica4x02Digits/Multiplica1x1/Multiplica1/resultado_0123/cout_signal<0>)
+     LUT5:I4->O            2   0.097   0.688  Multiplica4x02Digits/Multiplica1x1/Multiplica1/resultado_0123/Adder4Bits02/Ad1/Cout1 (Multiplica4x02Digits/Multiplica1x1/Multiplica1/resultado_0123/Adder4Bits02/c<2>)
+     LUT5:I0->O           12   0.097   0.734  Multiplica4x02Digits/Multiplica1x1/Multiplica1/resultado_0123/Adder4Bits02/Ad2/Mxor_S_xo<0> (Multiplica4x02Digits/Multiplica1x1/Saida_temp01<6>)
+     LUT6:I1->O            1   0.097   0.683  Multiplica4x02Digits/Multiplica2x1/Adder8Bits01/Adder4Bits01/Ad2/Cout_SW1 (N11)
+     LUT6:I1->O            2   0.097   0.698  Multiplica4x02Digits/Multiplica2x1/Adder8Bits01/Adder4Bits01/Ad2/Cout (Multiplica4x02Digits/Multiplica2x1/Adder8Bits01/Adder4Bits01/c<3>)
+     LUT6:I0->O           10   0.097   0.337  Multiplica4x02Digits/Multiplica2x1/Adder8Bits01/Adder4Bits02/Ad3/Mxor_S_xo<0>11 (Multiplica4x02Digits/Multiplica2x1/Adder8Bits01/Adder4Bits02/Ad3/Mxor_S_xo<0>1)
+     LUT6:I5->O            8   0.097   0.589  Multiplica4x02Digits/Multiplica2x1/Mram__n003011 (Multiplica4x02Digits/Multiplica2x1/Mram__n00301)
+     LUT4:I0->O            3   0.097   0.703  Multiplica4x02Digits/Multiplica2x1/Adder2DigitsBCD01/Adder/Ad1/Cout1 (Multiplica4x02Digits/Multiplica2x1/Adder2DigitsBCD01/Adder/c<2>)
+     LUT6:I0->O            4   0.097   0.309  Multiplica4x02Digits/Multiplica2x1/Adder2DigitsBCD01/Adder/Ad2/Mxor_S_xo<0> (Multiplica4x02Digits/Multiplica2x1/Adder2DigitsBCD01/S<2>)
+     LUT5:I4->O            1   0.097   0.556  Multiplica4x02Digits/Multiplica2x1/Adder2DigitsBCD01/SomaOuNao_6_SW0 (N58)
+     LUT6:I2->O           11   0.097   0.603  Multiplica4x02Digits/Multiplica2x1/Adder2DigitsBCD01/SomaOuNao_6 (Multiplica4x02Digits/Multiplica2x1/Somar_Cout)
+     LUT6:I2->O            2   0.097   0.698  Multiplica4x02Digits/Multiplica2x1/Adder2DigitsBCD02/Adder_6/Ad1/Mxor_S_xo<0>1 (Multiplica4x02Digits/C2<1>)
+     LUT6:I0->O            3   0.097   0.521  Multiplica4x02Digits/Multiplica3x1/Adder8Bits01/Adder4Bits01/Ad1/Cout1 (Multiplica4x02Digits/Multiplica3x1/Adder8Bits01/Adder4Bits01/c<2>)
+     LUT3:I0->O            3   0.097   0.693  Multiplica4x02Digits/Multiplica3x1/Adder8Bits01/Adder4Bits01/Ad3/Mxor_S_xo<0>11 (Multiplica4x02Digits/Multiplica3x1/Adder8Bits01/Adder4Bits01/Ad3/Mxor_S_xo<0>1)
+     LUT5:I0->O            7   0.097   0.323  Multiplica4x02Digits/Multiplica3x1/Adder8Bits01/Adder4Bits02/Ad2/Mxor_S_xo<0>11 (Multiplica4x02Digits/Multiplica3x1/Adder8Bits01/Adder4Bits02/Ad2/Mxor_S_xo<0>1)
+     LUT6:I5->O            6   0.097   0.579  Multiplica4x02Digits/Multiplica3x1/Adder8Bits01/Adder4Bits02/Ad2/Mxor_S_xo<0>21 (Multiplica4x02Digits/Multiplica3x1/Adder8Bits01/Adder4Bits02/Ad2/Mxor_S_xo<0>2)
+     LUT5:I1->O            5   0.097   0.702  Multiplica4x02Digits/Multiplica3x1/Adder2DigitsBCD01/Adder/Ad3/Mxor_S_xo<0>41 (Multiplica4x02Digits/Multiplica3x1/Adder2DigitsBCD01/Adder/Ad3/Mxor_S_xo<0>2)
+     LUT5:I0->O            7   0.097   0.721  Multiplica4x02Digits/Multiplica3x1/Mram__n003021 (Multiplica4x02Digits/Multiplica3x1/Mram__n00302)
+     LUT6:I0->O            3   0.097   0.703  Multiplica4x02Digits/Multiplica3x1/Adder2DigitsBCD01/Adder/Ad2/Cout1 (Multiplica4x02Digits/Multiplica3x1/Adder2DigitsBCD01/Adder/c<3>)
+     LUT6:I0->O            1   0.097   0.683  Multiplica4x02Digits/Multiplica3x1/Adder2DigitsBCD02/Adder/Ad0/A_Cin_AND_18_o_SW0 (N01)
+     LUT6:I1->O            5   0.097   0.712  Multiplica4x02Digits/Multiplica3x1/Adder2DigitsBCD02/Adder/Ad0/A_Cin_AND_18_o (Multiplica4x02Digits/Multiplica3x1/Adder2DigitsBCD02/Adder/c<1>)
+     LUT6:I0->O            1   0.097   0.000  Multiplica4x02Digits/Multiplica3x1/Adder2DigitsBCD02/Adder_6/Ad2/Mxor_S_xo<0>3_F (N161)
+     MUXF7:I0->O           2   0.277   0.698  Multiplica4x02Digits/Multiplica3x1/Adder2DigitsBCD02/Adder_6/Ad2/Mxor_S_xo<0>3 (Multiplica4x02Digits/C3<2>)
+     LUT6:I0->O            2   0.097   0.688  Multiplica4x02Digits/Multiplica4x1/Adder8Bits01/Adder4Bits01/Ad3/Mxor_S_xo<0>11 (Multiplica4x02Digits/Multiplica4x1/Adder8Bits01/Adder4Bits01/Ad3/Mxor_S_xo<0>1)
+     LUT5:I0->O           12   0.097   0.430  Multiplica4x02Digits/Multiplica4x1/Adder8Bits01/Adder4Bits02/Ad2/Mxor_S_xo<0>11 (Multiplica4x02Digits/Multiplica4x1/Adder8Bits01/Adder4Bits02/Ad2/Mxor_S_xo<0>1)
+     LUT5:I3->O            4   0.097   0.707  Multiplica4x02Digits/Multiplica4x1/Adder2DigitsBCD01/Adder/Ad3/Mxor_S_xo<0>61 (Multiplica4x02Digits/Multiplica4x1/Adder2DigitsBCD01/Adder/Ad3/Mxor_S_xo<0>3)
+     LUT6:I0->O            5   0.097   0.575  Multiplica4x02Digits/Multiplica4x1/Mram__n003021 (Multiplica4x02Digits/Multiplica4x1/Mram__n00302)
+     LUT4:I0->O            2   0.097   0.698  Multiplica4x02Digits/Multiplica4x1/Adder2DigitsBCD01/Adder/Ad2/Cout1 (Multiplica4x02Digits/Multiplica4x1/Adder2DigitsBCD01/Adder/c<3>)
+     LUT6:I0->O            4   0.097   0.697  Multiplica4x02Digits/Multiplica4x1/Adder2DigitsBCD01/Adder/Ad3/Mxor_S_xo<0> (Multiplica4x02Digits/Multiplica4x1/Adder2DigitsBCD01/S<3>)
+     LUT6:I1->O            9   0.097   0.593  Multiplica4x02Digits/Multiplica4x1/Adder2DigitsBCD01/Adder_6/Ad1/Mxor_S_xo<0>11 (Multiplica4x02Digits/Multiplica4x1/Adder2DigitsBCD01/Adder_6/Ad1/Mxor_S_xo<0>1)
+     LUT5:I1->O            6   0.097   0.716  somaBCD12/Adder4x4DigitsBCD02/Ad0_BCD/Adder/Ad1/Mxor_S_xo<0>1 (somaBCD12/Adder4x4DigitsBCD02/Ad0_BCD/S<1>)
+     LUT6:I0->O            2   0.097   0.697  somaBCD12/Adder4x4DigitsBCD02/Ad0_BCD/Adder_6/Ad2/Mxor_S_xo<0>2 (resultado01<18>)
+     LUT6:I0->O            4   0.097   0.570  resultado_1234/Adder4x4DigitsBCD02/Ad0_BCD/Adder/Ad2/Mxor_S_xo<0>1 (resultado_1234/Adder4x4DigitsBCD02/Ad0_BCD/S<2>)
+     LUT5:I1->O            2   0.097   0.516  resultado_1234/Adder4x4DigitsBCD02/Ad0_BCD/SomaOuNao_61 (resultado_1234/Adder4x4DigitsBCD02/Cout4DigitsBCD<0>)
+     LUT4:I1->O            3   0.097   0.521  resultado_1234/Adder4x4DigitsBCD02/Ad1_BCD/Adder/Ad1/Mxor_S_xo<0>11 (resultado_1234/Adder4x4DigitsBCD02/Ad1_BCD/Adder/Ad1/Mxor_S_xo<0>1)
+     LUT6:I3->O            4   0.097   0.697  resultado_1234/Adder4x4DigitsBCD02/Ad1_BCD/Adder/Ad2/Cout1 (resultado_1234/Adder4x4DigitsBCD02/Ad1_BCD/Adder/c<3>)
+     LUT6:I1->O            3   0.097   0.389  resultado_1234/Adder4x4DigitsBCD02/Ad1_BCD/SomaOuNao_61 (resultado_1234/Adder4x4DigitsBCD02/Cout4DigitsBCD<1>)
+     LUT3:I1->O            5   0.097   0.398  resultado_1234/Adder4x4DigitsBCD02/Ad2_BCD/Adder/Ad0/Cout1 (resultado_1234/Adder4x4DigitsBCD02/Ad2_BCD/Adder/c<1>)
+     LUT6:I4->O            3   0.097   0.521  resultado_1234/Adder4x4DigitsBCD02/Ad3_BCD/Adder/Ad0/Cout1 (resultado_1234/Adder4x4DigitsBCD02/Ad3_BCD/Adder/c<1>)
+     LUT4:I1->O            1   0.097   0.279  resultado_1234/Adder4x4DigitsBCD02/Ad3_BCD/Adder_6/Ad2/Mxor_S_xo<0>1 (Saida_30_OBUF)
+     OBUF:I->O                 0.000          Saida_30_OBUF (Saida<30>)
+    ----------------------------------------
+    Total                     28.317ns (4.158ns logic, 24.159ns route)
+                                       (14.7% logic, 85.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 17.98 secs
+ 
+--> 
+
+
+Total memory usage is 497032 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

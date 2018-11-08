@@ -35,6 +35,17 @@
          <ClosedNode>/Multiplica4x1Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x1Digits.vhd</ClosedNode>
          <ClosedNode>/Multiplica4x4Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd</ClosedNode>
          <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd/Multiplica4x01Digits - Multiplica4x1Digits - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd/Multiplica4x02Digits - Multiplica4x1Digits - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd/Multiplica4x03Digits - Multiplica4x1Digits - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd/Multiplica4x04Digits - Multiplica4x1Digits - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd/Multiplica4x1Digits - Multiplica4x1Digits - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd/Multiplica4x2Digits - Multiplica4x1Digits - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd/Multiplica4x3Digits - Multiplica4x1Digits - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd/Multiplica4x4Digits - Multiplica4x1Digits - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd/resultado_1234 - Adder8x8DigitsBCD - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd/somaBCD12 - Adder8x8DigitsBCD - Behavioral</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd/somaBCD34 - Adder8x8DigitsBCD - Behavioral</ClosedNode>
          <ClosedNode>/eightBitsAdder - Adder8Bits |home|lukas|ISE_PROJETOS|SD_BCD_OP|Adder8Bits.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
@@ -42,7 +53,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c5000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c50000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d5000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d50000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>Multiplica4x4DigitsBCD - Behavioral (/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x4Digits.vhd)</CurrentItem>
    </ItemView>
@@ -56,13 +67,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000126000000010000000100000000000000000000000064ffffffff000000810000000000000001000001260000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -97,30 +108,31 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Implement Design</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000126000000010000000100000000000000000000000064ffffffff000000810000000000000001000001260000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Implement Design</CurrentItem>
    </ItemView>
-   <SourceProcessView>000000ff0000000000000002000001510000012001000000060100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <SourceProcessView>000000ff0000000000000002000000dd000000ca01000000060100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Adder2DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SomaEMultBCD|Adder2DigitsBCD.vhd</ClosedNode>
          <ClosedNode>/Multiplica4x1Digits - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x1Digits.vhd</ClosedNode>
+         <ClosedNode>/Multiplica4x4DigitsBCD - Behavioral |home|lukas|ISE_PROJETOS|SD_BCD_OP|Multiplica4x4Digits.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Multiplica4x1Digits - Behavioral (/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x1Digits.vhd)</SelectedItem>
+         <SelectedItem>Adder4x4DigitsBCD01 - Adder4x4DigitsBCD - Behavioral (/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a9000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a90000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c5000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c50000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Multiplica4x1Digits - Behavioral (/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x1Digits.vhd)</CurrentItem>
+      <CurrentItem>Adder4x4DigitsBCD01 - Adder4x4DigitsBCD - Behavioral (/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4x4Digits.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -128,13 +140,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000126000000010000000100000000000000000000000064ffffffff000000810000000000000001000001260000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -145,7 +157,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000126000000010000000100000000000000000000000064ffffffff000000810000000000000001000001260000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>

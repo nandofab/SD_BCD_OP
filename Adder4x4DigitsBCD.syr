@@ -222,13 +222,12 @@ Top Level Output File Name         : Adder4x4DigitsBCD.ngc
 Primitive and Black Box Usage:
 ------------------------------
 # BELS                             : 34
-#      LUT2                        : 1
-#      LUT3                        : 2
-#      LUT4                        : 7
+#      LUT3                        : 4
+#      LUT4                        : 3
 #      LUT5                        : 8
-#      LUT6                        : 16
-# IO Buffers                       : 49
-#      IBUF                        : 32
+#      LUT6                        : 19
+# IO Buffers                       : 50
+#      IBUF                        : 33
 #      OBUF                        : 17
 
 Device utilization summary:
@@ -249,8 +248,8 @@ Slice Logic Distribution:
    Number of unique control sets:         0
 
 IO Utilization: 
- Number of IOs:                          49
- Number of bonded IOBs:                  49  out of    210    23%  
+ Number of IOs:                          50
+ Number of bonded IOBs:                  50  out of    210    23%  
 
 Specific Feature Utilization:
 
@@ -285,7 +284,7 @@ Speed Grade: -3
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 6.598ns
+   Maximum combinational path delay: 6.427ns
 
 Timing Details:
 ---------------
@@ -293,9 +292,9 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 1894 / 17
+  Total number of paths / destination ports: 1613 / 17
 -------------------------------------------------------------------------
-Delay:               6.598ns (Levels of Logic = 12)
+Delay:               6.427ns (Levels of Logic = 11)
   Source:            A<1> (PAD)
   Destination:       S<13> (PAD)
 
@@ -303,10 +302,9 @@ Delay:               6.598ns (Levels of Logic = 12)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             4   0.001   0.570  A_1_IBUF (A_1_IBUF)
-     LUT4:I0->O            2   0.097   0.516  Ad0_BCD/Adder/Ad1/Cout1 (Ad0_BCD/Adder/c<2>)
-     LUT4:I1->O            3   0.097   0.389  Ad0_BCD/SomaOuNao_611 (Ad0_BCD/SomaOuNao_61)
-     LUT4:I2->O            5   0.097   0.398  Ad0_BCD/SomaOuNao_61 (Cout4DigitsBCD<0>)
+     IBUF:I->O             3   0.001   0.693  A_1_IBUF (A_1_IBUF)
+     LUT5:I0->O            5   0.097   0.712  Ad0_BCD/Adder/Ad1/Cout1 (Ad0_BCD/Adder/c<2>)
+     LUT6:I0->O            4   0.097   0.393  Ad0_BCD/SomaOuNao_61 (Cout4DigitsBCD<0>)
      LUT5:I3->O            5   0.097   0.712  Ad1_BCD/Adder/Ad1/Cout1 (Ad1_BCD/Adder/c<2>)
      LUT6:I0->O            4   0.097   0.393  Ad1_BCD/SomaOuNao_61 (Cout4DigitsBCD<1>)
      LUT5:I3->O            5   0.097   0.712  Ad2_BCD/Adder/Ad1/Cout1 (Ad2_BCD/Adder/c<2>)
@@ -316,8 +314,8 @@ Delay:               6.598ns (Levels of Logic = 12)
      LUT6:I2->O            1   0.097   0.279  Ad3_BCD/Adder_6/Ad1/Mxor_S_xo<0>1 (S_13_OBUF)
      OBUF:I->O                 0.000          S_13_OBUF (S<13>)
     ----------------------------------------
-    Total                      6.598ns (0.971ns logic, 5.627ns route)
-                                       (14.7% logic, 85.3% route)
+    Total                      6.427ns (0.874ns logic, 5.553ns route)
+                                       (13.6% logic, 86.4% route)
 
 =========================================================================
 
@@ -327,13 +325,13 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.00 secs
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.17 secs
  
 --> 
 
 
-Total memory usage is 496340 kilobytes
+Total memory usage is 496316 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

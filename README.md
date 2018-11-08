@@ -6,13 +6,12 @@ Feitos:
 - Multiplicador 4 bits;
 - Somador 1x1 dígito BCD;
 - Somador 4x4 dígitos BCD;
+- Somador 8x8 digitos BCD;
 - Multiplicador 1x1 dígito BCD;
 - Multiplicador 4x1 dígitos BCD;
 - Multiplicador 4x4 dígitos BCD.
-- Adicao de txt teste
 
 Faltando:
-- O módulo Adder8x8DigitsBCD com A,B (entradas) e Saida (saída);
 
 - Depois, montar máquinas de estado para leitura e exibição dos números
   e resultados das operações através do teclado e display.

@@ -32,10 +32,13 @@ use IEEE.STD_LOGIC_1164.ALL;
 -- ALOU ALOU GALERA DE COWBOY
 
 entity Adder4x4DigitsBCD is
-    Port ( A : in  STD_LOGIC_VECTOR (15 downto 0);
+    
+	 Port ( A : in  STD_LOGIC_VECTOR (15 downto 0);
            B : in  STD_LOGIC_VECTOR (15 downto 0);
+			  Cin: in STD_LOGIC;
            S : out  STD_LOGIC_VECTOR (15 downto 0);
            Cout : out  STD_LOGIC);
+
 end Adder4x4DigitsBCD;
 
 architecture Behavioral of Adder4x4DigitsBCD is
@@ -43,17 +46,18 @@ architecture Behavioral of Adder4x4DigitsBCD is
 	signal Cout4DigitsBCD: std_logic_vector (3 downto 0); 
 
 	component Adder2DigitsBCD
+	
 		Port ( A : in  STD_LOGIC_VECTOR(3 downto 0);
-         B : in  STD_LOGIC_VECTOR(3 downto 0);
-         Cin : in  STD_LOGIC;
-         Saida : out  STD_LOGIC_VECTOR(3 downto 0);
-         Cout : out  STD_LOGIC);
+				 B : in  STD_LOGIC_VECTOR(3 downto 0);
+             Cin : in  STD_LOGIC;
+             Saida : out  STD_LOGIC_VECTOR(3 downto 0);
+             Cout : out  STD_LOGIC);
 	end component;	
 	
 begin
 
-	Ad0_BCD: Adder2DigitsBCD port map (A(3 downto 0),B(3 downto 0),
-	'0',S(3 downto 0), Cout4DigitsBCD(0)); 
+	Ad0_BCD: Adder2DigitsBCD port map 
+	(A(3 downto 0), B(3 downto 0), Cin, S(3 downto 0), Cout4DigitsBCD(0)); 
 	
 	Ad1_BCD: Adder2DigitsBCD port map (A(7 downto 4),B(7 downto 4),
 	Cout4DigitsBCD(0) ,S(7 downto 4), Cout4DigitsBCD(1)); 
