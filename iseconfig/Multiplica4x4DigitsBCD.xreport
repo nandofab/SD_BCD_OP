@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-11-08T19:15:39</DateModified>
+  <DateModified>2018-11-08T23:26:05</DateModified>
   <ModuleName>Multiplica4x4DigitsBCD</ModuleName>
   <SummaryTimeStamp>2018-11-08T19:07:13</SummaryTimeStamp>
-  <SavedFilePath>/home/lukas/ISE_PROJETOS/SD_BCD_OP/iseconfig/Multiplica4x4DigitsBCD.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/lukas/ISE_PROJETOS/SD_BCD_OP/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/lukas/ISE_PROJETOS/DigitalSystems-BCD-Operations/iseconfig/Multiplica4x4DigitsBCD.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/lukas/ISE_PROJETOS/DigitalSystems-BCD-Operations/</ImplementationReportsDirectory>
   <DateInitialized>2018-11-08T19:07:20</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
