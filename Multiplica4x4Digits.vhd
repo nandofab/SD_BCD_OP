@@ -63,16 +63,16 @@ architecture Behavioral of Multiplica4x4DigitsBCD is
 
 begin
 	
-	Multiplica4x1Digits: Multiplica4x1Digits port map
+	Multiplica4x01Digits: Multiplica4x1Digits port map
 	(A, B(3 downto 0), soma0);
 	
-	Multiplica4x2Digits: Multiplica4x1Digits port map
+	Multiplica4x02Digits: Multiplica4x1Digits port map
 	(A, B(7 downto 4), soma1);
 	
-	Multiplica4x3Digits: Multiplica4x1Digits port map
+	Multiplica4x03Digits: Multiplica4x1Digits port map
 	(A, B(11 downto 8), soma2);
 	
-	Multiplica4x4Digits: Multiplica4x1Digits port map
+	Multiplica4x04Digits: Multiplica4x1Digits port map
 	(A, B(15 downto 12), soma3);
 	
 	parte1_soma <= "000000000000" & soma0;

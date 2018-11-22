@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4DigitsBCD_isim_beh.exe" -prj "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Adder4DigitsBCD_beh.prj" "Adder4DigitsBCD" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x4DigitsBCD_isim_beh.exe" -prj "/home/lukas/ISE_PROJETOS/SD_BCD_OP/Multiplica4x4DigitsBCD_beh.prj" "work.Multiplica4x4DigitsBCD" 
