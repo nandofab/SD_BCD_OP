@@ -47,6 +47,7 @@ component Multiplica4x4DigitsBCD
 
 end component;
 
+-- Somador
 component Adder4x4DigitsBCD 
     
 	 Port ( A : in  STD_LOGIC_VECTOR (15 downto 0);

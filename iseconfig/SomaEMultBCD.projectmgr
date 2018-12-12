@@ -57,13 +57,13 @@
          <ClosedNode>/eightBitsAdder - Adder8Bits |home|lukas|ISE_PROJETOS|SD_BCD_OP|Adder8Bits.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>BCD_OP - Behavioral (/home/lukas/ISE_PROJETOS/DigitalSystems-BCD-Operations/BCD_OP.vhd)</SelectedItem>
+         <SelectedItem>xc7a100t-3csg324</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000274000000020000000000000000000000000200000064ffffffff000000810000000300000002000002740000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>BCD_OP - Behavioral (/home/lukas/ISE_PROJETOS/DigitalSystems-BCD-Operations/BCD_OP.vhd)</CurrentItem>
+      <CurrentItem>xc7a100t-3csg324</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
