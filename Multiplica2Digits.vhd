@@ -86,7 +86,8 @@ begin
 	Adder2DigitsBCD02: Adder2DigitsBCD port map ( Cout_temp, "0000", Somar_Cout, Cout);
 	
 	WITH Saida_temp02(7 downto 4) select
-		Somar_saida <= "0000" when "0000",
+		Somar_saida <= 			-- unidade
+			"0000" when "0000", 
 			"0110" when "0001",
          "0010" when "0010",
          "1000" when "0011",
@@ -95,7 +96,8 @@ begin
 			"0000" WHEN OTHERS;
 			
 	WITH Saida_temp02(7 downto 4) select
-		Cout_temp <= "0000" when "0000",
+		Cout_temp <= 				-- dezena (da no Cout que sera o Cin do proximo)
+			"0000" when "0000", 
 			"0001" when "0001",
          "0011" when "0010",
          "0100" when "0011",
