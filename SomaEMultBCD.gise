@@ -23,17 +23,105 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Adder2DigitsBCD_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Adder2DigitsBCD_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Adder4DigitsBCD_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Adder4x4DigitsBCD_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Adder4x4DigitsBCD_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Adder8Bits_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="BCD_OP_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Multiplica2Digits_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplica2Digits_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Multiplica4Bits_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Multiplica4x1Digits_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplica4x1Digits_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplica4x4DigitsBCD_beh.prj"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Multiplica4x4DigitsBCD_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplica4x4DigitsBCD_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Multiplica4x4DigitsBCD_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="test_keyboard_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
   </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1544659471" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1544659471">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544659471" xil_pn:in_ck="-8495494639607838746" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1544659471">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../../Downloads/DISPLAY/lcd.vhd"/>
+      <outfile xil_pn:name="../../Downloads/digitalsystems-02-master/key_parser.vhd"/>
+      <outfile xil_pn:name="../../Downloads/digitalsystems-02-master/ps2_rx.vhd"/>
+      <outfile xil_pn:name="../../Downloads/digitalsystems-02-master/test_keyboard.vhd"/>
+      <outfile xil_pn:name="Adder1Bit.vhd"/>
+      <outfile xil_pn:name="Adder2DigitsBCD.vhd"/>
+      <outfile xil_pn:name="Adder4Bits.vhd"/>
+      <outfile xil_pn:name="Adder4x4Digits.vhd"/>
+      <outfile xil_pn:name="Adder8Bits.vhd"/>
+      <outfile xil_pn:name="Adder8x8DigitsBCD.vhd"/>
+      <outfile xil_pn:name="BCD_OP.vhd"/>
+      <outfile xil_pn:name="GeradorDeSinais.vhd"/>
+      <outfile xil_pn:name="Multiplica2Digits.vhd"/>
+      <outfile xil_pn:name="Multiplica4Bits.vhd"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.vhd"/>
+      <outfile xil_pn:name="Multiplica4x4Digits.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1544661417" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2709970353203187918" xil_pn:start_ts="1544661417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544661417" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-9049473889155596308" xil_pn:start_ts="1544661417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544659471" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5515399592476209945" xil_pn:start_ts="1544659471">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544659471" xil_pn:in_ck="-8495494639607838746" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1544659471">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../../Downloads/DISPLAY/lcd.vhd"/>
+      <outfile xil_pn:name="../../Downloads/digitalsystems-02-master/key_parser.vhd"/>
+      <outfile xil_pn:name="../../Downloads/digitalsystems-02-master/ps2_rx.vhd"/>
+      <outfile xil_pn:name="../../Downloads/digitalsystems-02-master/test_keyboard.vhd"/>
+      <outfile xil_pn:name="Adder1Bit.vhd"/>
+      <outfile xil_pn:name="Adder2DigitsBCD.vhd"/>
+      <outfile xil_pn:name="Adder4Bits.vhd"/>
+      <outfile xil_pn:name="Adder4x4Digits.vhd"/>
+      <outfile xil_pn:name="Adder8Bits.vhd"/>
+      <outfile xil_pn:name="Adder8x8DigitsBCD.vhd"/>
+      <outfile xil_pn:name="BCD_OP.vhd"/>
+      <outfile xil_pn:name="GeradorDeSinais.vhd"/>
+      <outfile xil_pn:name="Multiplica2Digits.vhd"/>
+      <outfile xil_pn:name="Multiplica4Bits.vhd"/>
+      <outfile xil_pn:name="Multiplica4x1Digits.vhd"/>
+      <outfile xil_pn:name="Multiplica4x4Digits.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1544661419" xil_pn:in_ck="-8495494639607838746" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5221485498784144277" xil_pn:start_ts="1544661417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Multiplica4x4DigitsBCD_beh.prj"/>
+      <outfile xil_pn:name="Multiplica4x4DigitsBCD_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1544661419" xil_pn:in_ck="-8022340716954848489" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1575742258933774216" xil_pn:start_ts="1544661419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Multiplica4x4DigitsBCD_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
 
 </generated_project>

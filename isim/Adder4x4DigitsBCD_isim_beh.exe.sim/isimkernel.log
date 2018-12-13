@@ -1,0 +1,29 @@
+Command line:
+   Adder4x4DigitsBCD_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34385
+
+Wed Dec 12 22:15:04 2018
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 196.153 Meg
+
+ Total Signals          : 254
+ Total Nets             : 134
+ Total Signal Drivers   : 97
+ Total Blocks           : 46
+ Total Primitive Blocks : 33
+ Total Processes        : 97
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 494
+Total Line Count : 97
+
+ Total Simulation Time: 0.14 sec
+
+ Current Memory Usage: 271.655 Meg
+
+Wed Dec 12 22:24:47 2018
+
